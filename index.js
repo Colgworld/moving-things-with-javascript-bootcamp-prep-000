@@ -1,10 +1,15 @@
 const app = "I don't do much."
 var dodger = document.getElementById('dodger');
 
-function addRight() {
-    var rightClass = document.getElementById('dodger');
-    element.classList.add('right');
-}
+    $(document).ready(function(){
+        addRight()
+        });
+    });
+
+    function addRight() {
+        var rightClass = document.getElementById('dodger');
+        element.classList.add('right');
+    }
 
     document.addEventListener('keydown', function(e) {
       if (e.which === 37) {
