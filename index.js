@@ -2,8 +2,7 @@ const app = "I don't do much."
 var dodger = document.getElementById('dodger');
 
     $(document).ready(function(){
-          var rightClass = document.getElementById('#dodger');
-          element.classList.add('right');
+          $('#dodger').addClass('right')
         });
     });
 
