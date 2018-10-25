@@ -2,14 +2,10 @@ const app = "I don't do much."
 var dodger = document.getElementById('dodger');
 
     $(document).ready(function(){
-        addRight()
+          var rightClass = document.getElementById('dodger');
+          element.classList.add('right');
         });
     });
-
-    function addRight() {
-        var rightClass = document.getElementById('dodger');
-        element.classList.add('right');
-    }
 
     document.addEventListener('keydown', function(e) {
       if (e.which === 37) {
