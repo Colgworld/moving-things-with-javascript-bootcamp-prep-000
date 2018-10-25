@@ -1,9 +1,7 @@
 const app = "I don't do much."
 var dodger = document.getElementById('dodger');
 
-    $(document).ready(function(){
-        $('dodger').addClass('right');
-    });
+  
 
     document.addEventListener('keydown', function(e) {
       if (e.which === 37) {
